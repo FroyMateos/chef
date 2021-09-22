@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .gallery, .contact, footer{
+.about, .services, .skills, .gallery, .contact, footer {
     font-family: 'Poppins', sans-serif;
 }
 #check{
@@ -66,7 +66,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 5px;
-    background: #2980B9;
+    background: #86a8e7;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -82,7 +82,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background: #2980B9;
+    background: #86a8e7;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -184,7 +184,7 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 30px;
     text-shadow: 1px 1px 0 #000,
         -1px 1px 0 #000,
         1px -1px 0 #000,
@@ -214,7 +214,7 @@ section .title::after{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color:#2980B9;
+    color: #86a8e7;
     text-shadow: 1px 1px 0 #000,
         -1px 1px 0 #000,
         1px -1px 0 #000,
@@ -268,6 +268,10 @@ section .title::after{
         2px -1px 0 #000,
         -2px -1px 0 #000;
 }
+.last-Word{
+ font-size: 60px;
+color: #86a8e7;
+}
 
 /* about section styling */
 .about .about-content .left img{
@@ -289,7 +293,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #2980B9;
+    background: #86a8e7;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -300,14 +304,14 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #2980B9;
+    color: #86a8e7;
     background: white;
 }
 
 /* services section styling */
 .services, .gallery{
     color:#fff;
-    background: #111;
+    background: #2c3e50;
 }
 .services .title::before,
 .gallery .title::before{
@@ -321,9 +325,10 @@ section .title::after{
     border-radius: 10px;
     padding: 50px 25px;
     cursor: pointer;
+
 }
 .services .serv-content .card:hover{
-    background: #2980B9;
+    background: #86a8e7;
     color: black;
 }
 .services .serv-content .card .box{
@@ -383,22 +388,22 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #2980B9;
+    background: #86a8e7;
 }
 .skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .css::before{
+    width: 90%;
+}
+.skills-content .right .js::before{
     width: 50%;
 }
+.skills-content .right .php::before{
+    width: 90%;
+}
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 85%;
 }
 
 .gallery-container{
@@ -420,6 +425,7 @@ border-radius: 6px;
 }
 .gallery__title{
 position: absolute;
+font-family: 'Ubuntu', sans-serif;
 bottom: 0;
 color: white;
 background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
@@ -457,11 +463,11 @@ grid-row: span 2;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #2980B9;
+    color: #86a8e7;
 }
 /* footer section styling */
 footer{
-    background: #2980B9;
+    background: #86a8e7;
     padding: 15px 23px;
     color: black;
     text-align: center;
